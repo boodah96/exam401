@@ -1,0 +1,26 @@
+body {
+    background-color: blueviolet;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10%;
+    column-gap: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    margin: 10px;
+    width: 350px;
+}
